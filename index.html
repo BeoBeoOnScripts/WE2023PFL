@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Poppins">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .menu-style{
+            position: absolute;
+            background: #fff;
+            margin-top: 55px;
+            z-index: 50;
+            width: 100%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body class="p-0 m-0 box-border m-auto xl:w-[1280px] md:w-[768px] w-[320px]">
+    <div class="" >
+    <header class="flex relative" >
+        <div class=" logo-top ml-[20px] pt-[18px] xl:ml-[190px] mt-[5px]" >
+            <img class="w-[100%]"  src="img/top-logo.png" alt="">
+        </div>
+        <div id="top-menu" class=" top-menu hidden md:block">
+            <ul class="md:flex xl:ml-[280px] md:pt-[29px] md:ml-[150px]">
+                <li class="xl:pr-[24px] md:pr-[17px] font-[700] xl:text-[18px] text-[12px]
+                leading-[18px] text-[#2C5282] hover:text-[#F26F21] "> <a href="#">Trang Chủ</a> </li>
+                <li class="xl:pr-[24px] md:pr-[17px] font-[700] xl:text-[18px] text-[12px]
+                leading-[18px] text-[#2C5282] hover:text-[#F26F21] "><a href="./index2.html">Các Cuộc Thi</a></li>
+                <li class="xl:pr-[24px] md:pr-[17px] font-[700] xl:text-[18px] text-[12px]
+                leading-[18px] text-[#2C5282] hover:text-[#F26F21] "><a href="#">Test Năng Lực</a></li>
+            </ul>
+        </div>
+        <div class=" top-butt pt-[22px] xl:mr-[190px] ml-[105px] md:ml-0">
+            <button class="border-[#2C5282] border-solid border-[1px] md:w-[100px] md:h-[32px] w-[75px] h-[24px] rounded-[5px] font-[400] md:text-[18px] text-[15px]
+            leading-[18px] text-[#2C5282]">Login</button>
+        </div>
+        <div class=" xl:hidden md:hidden mt-[22px] ml-[10px]">
+            <svg id="top-menu-item" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              </svg>              
+        </div>
+    </header>
+    <main>
+        <div class="banner">
+            <img class="w-fit md:mt-[18px] mt-[5px]" src="img/banner.png" alt="">
+        </div>
+        <div class="content1 xl:w-[1060px] md:w-[700px] w-[300px] mx-auto xl:mt-[32px] mt-[10px] xl:mt-[64px] xl:grid xl:grid-cols-2 xl:gap-[32px] md:grid md:grid-cols-2 md:gap-[16px]">
+            <div class="content1-text mt-[22px]">
+                <a class="font-[600] md:text-[24px]  text-[20px] 
+                md:leading-[36px] leading-[10px] text-[#F26F21] mt-[67px] hover:text-[#2C5282]" href="#">Ai có thể tham gia cuộc thi?</a>
+                <p class="font-[400] xl:text-[14px] text-[10px]
+                xl:leading-[26px] leading-[14px] text-[#000000] xl:mt-[16px] mt-[5px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+            </div>
+            <div class="content1-img">
+                <img class="hover:scale-[1.1] w-[70%] md:[85%] xl:w-[100%] mt-[20px] xl:mt-[0px] mx-auto"  src="img/who.png" alt="">
+            </div>
+        </div>
+        <div class="content2 xl:w-[1060px] md:w-[700px] w-[300px] m-auto mt-[20px]">
+            <a href="#" class="font-[600] xl:text-[24px] text-[20px] 
+            xl:leading-[36px] leading-[10px] text-[#1F2A37] xl:mt-[64px] hover:text-[#F26F21]">
+                Lợi ích khi tham gia
+        </a>
+            <div class="gallery mt-[32px] xl:flex xl:gap-[87px] md:grid md: grid-cols-2">
+                <img class="hover:scale-[1.1] w-[75%] md:w-[65%] xl:w-[100%] mx-auto " src="img/benefit1.png" alt="">
+                <img class="hover:scale-[1.1] w-[75%] md:w-[65%] xl:w-[100%] mx-auto" src="img/benefit2.png" alt="">
+                <img class="hover:scale-[1.1] w-[75%] md:w-[65%] xl:w-[100%] mx-auto" src="img/benefit3.png" alt="">
+            </div>
+        </div>
+        <div class="content3 xl:w-[1060px] md:w-[700px] w-[300px] m-auto mt-[20px]">
+            <a href="#" class="font-[600] xl:text-[24px] text-[20px] 
+            xl:leading-[36px] leading-[10px] text-[#1F2A37] mt-[76px] hover:text-[#F26F21]">Các cuộc thi</a>
+            <div class="content3-rows mt-[32px] xl:flex xl:gap-[32px] md:grid md:grid-cols-2">
+                <div class="content3-card xl:w-[332px] w-[300px] m-auto mt-[25px]">
+                    <img class="hover:scale-[1.1] w-[100%]" src="img/test1.png" alt="">
+                    <h6 class="font-[600] xl:text-[16px] text-[16px] 
+                    leading-[24px] text-[#1F2A37] mt-[24px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h6>
+                    <div class="flex">
+                    <p class="font-[400] xl:text-[14px] text-[14px]
+                    leading-[21px] text-[#A1A1AA] mt-[32px] leading-[30px] ">Thời gian: 20h00 ngày 08 - 03 - 2022 <br>Số người tham gia </p> 
+                    <p class="w-[27px] h-[21px] font-[400] text-[14px] leading-[21px] text-[#FFFFFF] bg-[#1D98BF] text-center rounded-[3px] mt-[65px] ml-[-107px]">32</p>
+                </div>
+                    <button class="mt-[32px] xl:w-[332px] w-[300px] h-[40px] hover:border-none hover:bg-[#F26F21] rounded-[5px] font-[400] text-[18px] leading-[18px] hover:text-[#FFFFFF] border-[1px] border-solid border-[#F26F21] text-[#F26F21] mx-auto">Đăng ký</button>
+                </div>
+                <div class="content3-card xl:w-[332px] w-[300px] m-auto mt-[25px]">
+                    <img class="hover:scale-[1.1] w-[100%]" src="img/test2.png" alt="">
+                    <h6 class="font-[600] xl:text-[16px] text-[16px] 
+                    leading-[24px] text-[#1F2A37] mt-[24px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h6>
+                    <div class="flex">
+                    <p class="font-[400] xl:text-[14px] text-[14px]
+                    leading-[21px] text-[#A1A1AA] mt-[32px] leading-[30px] ">Thời gian: 20h00 ngày 08 - 03 - 2022 <br>Số người tham gia </p> 
+                    <p class="w-[27px] h-[21px] font-[400] text-[14px] leading-[21px] text-[#FFFFFF] bg-[#1D98BF] text-center rounded-[3px] mt-[65px] ml-[-107px]">32</p>
+                </div>
+                    <button class="mt-[32px] xl:w-[332px] w-[300px] h-[40px] hover:border-none hover:bg-[#F26F21] rounded-[5px] font-[400] text-[18px] leading-[18px] hover:text-[#FFFFFF] border-[1px] border-solid border-[#F26F21] text-[#F26F21] mx-auto">Đăng ký</button>
+                </div>
+                <div class="content3-card xl:w-[332px] w-[300px] m-auto mt-[25px]">
+                    <img class="hover:scale-[1.1] w-[100%]" src="img/test3.png" alt="">
+                    <h6 class="font-[600] xl:text-[16px] text-[16px] 
+                    leading-[24px] text-[#1F2A37] mt-[24px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h6>
+                    <div class="flex">
+                    <p class="font-[400] xl:text-[14px] text-[14px]
+                    leading-[21px] text-[#A1A1AA] mt-[32px] leading-[30px] ">Thời gian: 20h00 ngày 08 - 03 - 2022 <br>Số người tham gia </p> 
+                    <p class="w-[27px] h-[21px] font-[400] text-[14px] leading-[21px] text-[#FFFFFF] bg-[#1D98BF] text-center rounded-[3px] mt-[65px] ml-[-107px]">32</p>
+                </div>
+                    <button class="mt-[32px] xl:w-[332px] w-[300px] h-[40px] hover:border-none hover:bg-[#F26F21] rounded-[5px] font-[400] text-[18px] leading-[18px] hover:text-[#FFFFFF] border-[1px] border-solid border-[#F26F21] text-[#F26F21] mx-auto">Đăng ký</button>
+                </div>
+            </div>
+            <div class="content3-rows mt-[40px] xl:flex gap-[32px] hidden md:block md:grid md:grid-cols-2">
+                <div class="content3-card xl:w-[332px] w-[300px] m-auto mt-[25px]">
+                    <img class="hover:scale-[1.1] w-[100%]" src="img/test1.png" alt="">
+                    <h6 class="font-[600] xl:text-[16px] text-[16px] 
+                    leading-[24px] text-[#1F2A37] mt-[24px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h6>
+                    <div class="flex">
+                    <p class="font-[400] xl:text-[14px] text-[14px]
+                    leading-[21px] text-[#A1A1AA] mt-[32px] leading-[30px] ">Thời gian: 20h00 ngày 08 - 03 - 2022 <br>Số người tham gia </p> 
+                    <p class="w-[27px] h-[21px] font-[400] text-[14px] leading-[21px] text-[#FFFFFF] bg-[#1D98BF] text-center rounded-[3px] mt-[65px] ml-[-107px]">32</p>
+                </div>
+                    <button class="mt-[32px] xl:w-[332px] w-[300px] h-[40px] hover:border-none hover:bg-[#F26F21] rounded-[5px] font-[400] text-[18px] leading-[18px] hover:text-[#FFFFFF] border-[1px] border-solid border-[#F26F21] text-[#F26F21] mx-auto">Đăng ký</button>
+                </div>
+                <div class="content3-card xl:w-[332px] w-[300px] m-auto mt-[25px]">
+                    <img class="hover:scale-[1.1] w-[100%]" src="img/test2.png" alt="">
+                    <h6 class="font-[600] xl:text-[16px] text-[16px] 
+                    leading-[24px] text-[#1F2A37] mt-[24px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h6>
+                    <div class="flex">
+                    <p class="font-[400] xl:text-[14px] text-[14px]
+                    leading-[21px] text-[#A1A1AA] mt-[32px] leading-[30px] ">Thời gian: 20h00 ngày 08 - 03 - 2022 <br>Số người tham gia </p> 
+                    <p class="w-[27px] h-[21px] font-[400] text-[14px] leading-[21px] text-[#FFFFFF] bg-[#1D98BF] text-center rounded-[3px] mt-[65px] ml-[-107px]">32</p>
+                </div>
+                    <button class="mt-[32px] xl:w-[332px] w-[300px] h-[40px] hover:border-none hover:bg-[#F26F21] rounded-[5px] font-[400] text-[18px] leading-[18px] hover:text-[#FFFFFF] border-[1px] border-solid border-[#F26F21] text-[#F26F21] mx-auto">Đăng ký</button>
+                </div>
+                <div class="content3-card xl:w-[332px] w-[300px] m-auto mt-[25px]">
+                    <img class="hover:scale-[1.1] w-[100%]" src="img/test3.png" alt="">
+                    <h6 class="font-[600] xl:text-[16px] text-[16px] 
+                    leading-[24px] text-[#1F2A37] mt-[24px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h6>
+                    <div class="flex">
+                    <p class="font-[400] xl:text-[14px] text-[14px]
+                    leading-[21px] text-[#A1A1AA] mt-[32px] leading-[30px] ">Thời gian: 20h00 ngày 08 - 03 - 2022 <br>Số người tham gia </p> 
+                    <p class="w-[27px] h-[21px] font-[400] text-[14px] leading-[21px] text-[#FFFFFF] bg-[#1D98BF] text-center rounded-[3px] mt-[65px] ml-[-107px]">32</p>
+                </div>
+                    <button class="mt-[32px] xl:w-[332px] w-[300px] h-[40px] hover:border-none hover:bg-[#F26F21] rounded-[5px] font-[400] text-[18px] leading-[18px] hover:text-[#FFFFFF] border-[1px] border-solid border-[#F26F21] text-[#F26F21] mx-auto">Đăng ký</button>
+                </div>
+            </div>
+        </div>
+        <div class="content4 xl:w-[1060px] md:w-[700px] w-[300px] m-auto mt-[20px] mt-[68px]">
+            <a href="#" class="font-[600] md:text-[24px] text-[20px] 
+            md:leading-[36px] leading-[10px] text-[#000000] mt-[76px] hover:text-[#F26F21]">
+                Bảng xếp hạng trong tháng
+        </a>
+            <div class="ct4-part1">
+                <h6 class="font-[600] text-[20px]
+                leading-[30px] text-[#71717A] mt-[24px] border-b-[3px] border-[#F26F21] w-[119px]">
+                    Thiết kế web
+                </h6>
+                <div class="card-collect grid xl:grid-cols-4 xl:gap-[65px] md:grid-cols-2 md:gap-[10px] mt-[39px] mx-auto">
+                <div class="in4card w-[200px] mt-[40px] mx-auto">
+                    <img class="mx-auto w-fit hover:scale-[1.5]" src="img/person.png"  alt="">
+                    <div class="name text-center mt-[12px]">Nguyễn Văn A</div>
+                    <div class="point flex mt-[9px] ml-[55px]">
+                        <img class="mr-[10px]" src="img/Vector.png" alt="">
+                        <p class="font-[500] text-[14px]
+                        leading-[21px] text-[#A1A1AA] tracking-[-0.24px]">Point: 150</p>
+                    </div>
+                    <div class="tag mt-[11px]">
+                        <div class="tag-row flex">
+                            <p class="text-center leading-[21px] rounded-[3px] mr-[13px] w-[98px] h-[21px]  bg-[#1D98BF] text-[#FFFFFF] mt-[8px]" >Javascript</p>
+                            <p class="text-center leading-[21px] rounded-[3px] mr-[13px] w-[92px] h-[21px]  bg-[#1D98BF] text-[#FFFFFF] mt-[8px]">HTML/Css</p>
+                        </div>
+                        <div class="tag-row flex">
+                            <p class="text-center leading-[21px] rounded-[3px] mr-[13px] w-[83px] h-[21px]  bg-[#1D98BF] text-[#FFFFFF] mt-[8px]">React Js</p>
+                            <p class="text-center leading-[21px] rounded-[3px] mr-[13px] w-[80px] h-[21px]  bg-[#1D98BF] text-[#FFFFFF] mt-[8px]">Node Js</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="in4card w-[200px] mt-[40px] mx-auto">
+                    <img class="mx-auto w-fit hover:scale-[1.5]" src="img/person.png"  alt="">
+                    <div class="name text-center mt-[12px]">Nguyễn Văn A</div>
+                    <div class="point flex mt-[9px] ml-[55px]">
+                        <img class="mr-[10px]" src="img/Vector.png" alt="">
+                        <p class="font-[500] text-[14px]
+                        leading-[21px] text-[#A1A1AA] tracking-[-0.24px]">Point: 150</p>
+                    </div>
+                    <div class="tag mt-[11px]">
+                        <div class="tag-row flex">
+                            <p class="text-center leading-[21px] rounded-[3px] mr-[13px] w-[98px] h-[21px]  bg-[#1D98BF] text-[#FFFFFF] mt-[8px]" >Javascript</p>
+                            <p class="text-center leading-[21px] rounded-[3px] mr-[13px] w-[92px] h-[21px]  bg-[#1D98BF] text-[#FFFFFF] mt-[8px]">HTML/Css</p>
+                        </div>
+                        <div class="tag-row flex">
+                            <p class="text-center leading-[21px] rounded-[3px] mr-[13px] w-[83px] h-[21px]  bg-[#1D98BF] text-[#FFFFFF] mt-[8px]">React Js</p>
+                            <p class="text-center leading-[21px] rounded-[3px] mr-[13px] w-[80px] h-[21px]  bg-[#1D98BF] text-[#FFFFFF] mt-[8px]">Node Js</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="in4card w-[200px] mt-[40px] mx-auto">
+                    <img class="mx-auto w-fit hover:scale-[1.5]" src="img/person.png"  alt="">
+                    <div class="name text-center mt-[12px]">Nguyễn Văn A</div>
+                    <div class="point flex mt-[9px] ml-[55px]">
+                        <img class="mr-[10px]" src="img/Vector.png" alt="">
+                        <p class="font-[500] text-[14px]
+                        leading-[21px] text-[#A1A1AA] tracking-[-0.24px]">Point: 150</p>
+                    </div>
+                    <div class="tag mt-[11px]">
+                        <div class="tag-row flex">
+                            <p class="text-center leading-[21px] rounded-[3px] mr-[13px] w-[98px] h-[21px]  bg-[#1D98BF] text-[#FFFFFF] mt-[8px]" >Javascript</p>
+                            <p class="text-center leading-[21px] rounded-[3px] mr-[13px] w-[92px] h-[21px]  bg-[#1D98BF] text-[#FFFFFF] mt-[8px]">HTML/Css</p>
+                        </div>
+                        <div class="tag-row flex">
+                            <p class="text-center leading-[21px] rounded-[3px] mr-[13px] w-[83px] h-[21px]  bg-[#1D98BF] text-[#FFFFFF] mt-[8px]">React Js</p>
+                            <p class="text-center leading-[21px] rounded-[3px] mr-[13px] w-[80px] h-[21px]  bg-[#1D98BF] text-[#FFFFFF] mt-[8px]">Node Js</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="in4card w-[200px] mt-[40px] mx-auto">
+                    <img class="mx-auto w-fit hover:scale-[1.5]" src="img/person.png"  alt="">
+                    <div class="name text-center mt-[12px]">Nguyễn Văn A</div>
+                    <div class="point flex mt-[9px] ml-[55px]">
+                        <img class="mr-[10px]" src="img/Vector.png" alt="">
+                        <p class="font-[500] text-[14px]
+                        leading-[21px] text-[#A1A1AA] tracking-[-0.24px]">Point: 150</p>
+                    </div>
+                    <div class="tag mt-[11px]">
+                        <div class="tag-row flex">
+                            <p class="text-center leading-[21px] rounded-[3px] mr-[13px] w-[98px] h-[21px]  bg-[#1D98BF] text-[#FFFFFF] mt-[8px]" >Javascript</p>
+                            <p class="text-center leading-[21px] rounded-[3px] mr-[13px] w-[92px] h-[21px]  bg-[#1D98BF] text-[#FFFFFF] mt-[8px]">HTML/Css</p>
+                        </div>
+                        <div class="tag-row flex">
+                            <p class="text-center leading-[21px] rounded-[3px] mr-[13px] w-[83px] h-[21px]  bg-[#1D98BF] text-[#FFFFFF] mt-[8px]">React Js</p>
+                            <p class="text-center leading-[21px] rounded-[3px] mr-[13px] w-[80px] h-[21px]  bg-[#1D98BF] text-[#FFFFFF] mt-[8px]">Node Js</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="ct4-part1 mt-[40px]">
+                <h6 class="font-[600] text-[20px]
+                leading-[30px] text-[#71717A] mt-[24px] border-b-[3px] border-[#F26F21] w-[145px]">
+                Thiết kế đồ họa
+                </h6>
+                <div class="card-collect grid xl:grid-cols-4 xl:gap-[65px] md:grid-cols-2 md:gap-[10px] mt-[39px] mx-auto">
+                <div class="in4card w-[200px] mt-[40px] mx-auto">
+                    <img class="mx-auto w-fit hover:scale-[1.5]" src="img/person.png"  alt="">
+                    <div class="name text-center mt-[12px]">Nguyễn Văn A</div>
+                    <div class="point flex mt-[9px] ml-[55px]">
+                        <img class="mr-[10px]" src="img/Vector.png" alt="">
+                        <p class="font-[500] text-[14px]
+                        leading-[21px] text-[#A1A1AA] tracking-[-0.24px]">Point: 150</p>
+                    </div>
+                    <div class="tag mt-[11px]">
+                        <div class="tag-row flex">
+                            <p class="text-center leading-[21px] rounded-[3px] mr-[13px] w-[99px] h-[21px]  bg-[#1D98BF] text-[#FFFFFF] mt-[8px]" >Photoshop</p>
+                            <p class="text-center leading-[21px] rounded-[3px] mr-[13px] w-[90px] h-[21px]  bg-[#1D98BF] text-[#FFFFFF] mt-[8px]">Illustrator</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="in4card w-[200px] mt-[40px] mx-auto">
+                    <img class="mx-auto w-fit hover:scale-[1.5]" src="img/person.png"  alt="">
+                    <div class="name text-center mt-[12px]">Nguyễn Văn A</div>
+                    <div class="point flex mt-[9px] ml-[55px]">
+                        <img class="mr-[10px]" src="img/Vector.png" alt="">
+                        <p class="font-[500] text-[14px]
+                        leading-[21px] text-[#A1A1AA] tracking-[-0.24px]">Point: 150</p>
+                    </div>
+                    <div class="tag mt-[11px]">
+                        <div class="tag-row flex">
+                            <p class="text-center leading-[21px] rounded-[3px] mr-[13px] w-[104px] h-[21px]  bg-[#1D98BF] text-[#FFFFFF] mt-[8px]" >Premier Pro</p>
+                            <p class="text-center leading-[21px] rounded-[3px] mr-[13px] w-[103px] h-[21px]  bg-[#1D98BF] text-[#FFFFFF] mt-[8px]">Cinema 4D</p>
+                        </div>
+                        <div class="tag-row flex">
+                            <p class="text-center leading-[21px] rounded-[3px] mr-[13px] w-[99px] h-[21px]  bg-[#1D98BF] text-[#FFFFFF] mt-[8px]">Photoshop</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="in4card w-[200px] mt-[40px] mx-auto">
+                    <img class="mx-auto w-fit hover:scale-[1.5]" src="img/person.png"  alt="">
+                    <div class="name text-center mt-[12px]">Nguyễn Văn A</div>
+                    <div class="point flex mt-[9px] ml-[55px]">
+                        <img class="mr-[10px]" src="img/Vector.png" alt="">
+                        <p class="font-[500] text-[14px]
+                        leading-[21px] text-[#A1A1AA] tracking-[-0.24px]">Point: 150</p>
+                    </div>
+                    <div class="tag mt-[11px]">
+                        <div class="tag-row flex">
+                            <p class="text-center leading-[21px] rounded-[3px] mr-[13px] w-[63px] h-[21px]  bg-[#1D98BF] text-[#FFFFFF] mt-[8px]" >Maya</p>
+                            <p class="text-center leading-[21px] rounded-[3px] mr-[13px] w-[100px] h-[21px]  bg-[#1D98BF] text-[#FFFFFF] mt-[8px]">After Effect</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="in4card w-[200px] mt-[40px] mx-auto">
+                    <img class="mx-auto w-fit hover:scale-[1.5]" src="img/person.png"  alt="">
+                    <div class="name text-center mt-[12px]">Nguyễn Văn A</div>
+                    <div class="point flex mt-[9px] ml-[55px]">
+                        <img class="mr-[10px]" src="img/Vector.png" alt="">
+                        <p class="font-[500] text-[14px]
+                        leading-[21px] text-[#A1A1AA] tracking-[-0.24px]">Point: 150</p>
+                    </div>
+                    <div class="tag mt-[11px]">
+                        <div class="tag-row flex">
+                            <p class="text-center leading-[21px] rounded-[3px] mr-[13px] w-[63px] h-[21px]  bg-[#1D98BF] text-[#FFFFFF] mt-[8px]" >Maya</p>
+                            <p class="text-center leading-[21px] rounded-[3px] mr-[13px] w-[99px] h-[21px]  bg-[#1D98BF] text-[#FFFFFF] mt-[8px]">Photoshop</p>
+                        </div>
+                        <div class="tag-row flex">
+                            <p class="text-center leading-[21px] rounded-[3px] mr-[13px] w-[104px] h-[21px]  bg-[#1D98BF] text-[#FFFFFF] mt-[8px]">Premier Pro</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </main>
+    <footer class="flex border-t-[9px] border-[#F26F21] p-0 bg-[#002037] xl:mt-[86px] mt-[30px]">
+        <img class="w-fit md:ml-[75px] xl:ml-0" src="img/f1.png" alt="" srcset="">
+        <img class="hidden md:hidden xl:block  overflow-hidden" src="img/f2.png" alt="">
+    </footer>
+</div>
+<script type="text/javascript">
+    const topMenu = document.getElementById('top-menu');
+    const topMenuIcon = document.getElementById('top-menu-item');
+    document.addEventListener('click',(e) => {
+        if(topMenuIcon.contains(e.target)){
+            topMenu.classList.toggle('hidden');
+            topMenu.classList.toggle('menu-style');
+        }
+        else{
+            if(topMenu.classList.contains('menu-style')){
+                topMenu.classList.remove('menu-style');
+                topMenu.classList.add('hidden');
+            }
+        }
+        })
+</script>
+</body>
+</html>
